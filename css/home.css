@@ -1,0 +1,38 @@
+#guide
+{
+    font-family:cursive;
+    font-size : 2em !important;
+    font-weight: bolder;
+}
+.block
+{
+    border:3px solid;
+    border-radius: 25px;
+    border-color: grey;
+    width:300px;
+    height:100px;
+    margin-left:35%;
+    margin-top:20px;
+    font-family:cursive;
+    font-size : 1em !important;
+    font-weight: bolder;
+}
+#loader
+{
+    border:1px solid;
+    border-radius: 25px;
+    border-color: whitesmoke;
+}
+#title
+{
+    position:absolute;
+    top:80px;
+    height:0;
+    font-family:cursive;
+    font-size : 3em !important;
+    width: 100%;
+    height:100px;
+    z-index: 999;
+    margin-left: 35%;
+    color:red;
+}

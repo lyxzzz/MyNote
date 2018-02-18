@@ -1,0 +1,55 @@
+#notename
+{
+    float:left;
+    position:relative;
+    margin-left:30px;
+    font-family:cursive;
+    font-size : 3em !important;
+    font-weight: bolder;
+    color:grey;
+    z-index: 20;
+}
+#addlabel
+ {
+     position:fixed;
+     margin-top:10px;
+     left:540px;
+     top:85px;
+     width:150px;
+     border-radius:30px;
+     border-color:white;
+ }
+#labelrepeat
+{
+    position:fixed;
+    margin-top:10px;
+    left:630px;
+    color:red;
+    top:80px;
+}
+#label-div
+{
+    float:left;
+    position:relative;
+    margin-left:20px;
+    font-family:cursive;
+    font-size : 3em !important;
+    font-weight: bolder;
+    color:grey;
+    z-index: 20;
+}
+.notespan
+{
+    margin-top: 5px;
+    margin-left:10px;
+}
+.selected-span
+{
+    background-color: greenyellow !important;
+}
+#note-read
+{
+    width:150px;
+    margin-left:230px;
+
+}

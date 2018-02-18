@@ -1,0 +1,45 @@
+img
+{
+    max-width: 270px;
+    width: 90%;
+    position: fixed;
+    margin-top: 0px;
+    top:0;
+    left:0;
+}
+ul
+{
+    margin-left:auto;
+    list-style-type: none;
+    width:400px;
+    height:50px;
+    position: absolute;
+    top:18px;
+    right:0;
+    display:inline-block;
+}
+li
+{
+    float:left;
+    padding:0% 5%;
+}
+header a
+{
+    font-size:1em;
+}
+a:link {color:#000000;}      /* 未访问链接*/
+a
+{
+    text-decoration:none;
+}
+hr
+{
+    height:10px;
+    border:none;
+    border-top:10px groove skyblue;
+    margin-top: 84px;
+}
+label.prompt
+{
+    color: 	#FF0000;
+}

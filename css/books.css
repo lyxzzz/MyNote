@@ -1,0 +1,178 @@
+#notebooks-div
+{
+    width:300px;
+    height:950px;
+    position:fixed;
+    background-image: url(http://localhost/web_project/images/booksimage.jpg);
+    /* 背景图垂直、水平均居中 */
+    background-position: center center;
+    /* 背景图不平铺 */
+    background-repeat: no-repeat;
+    /* 当内容高度大于图片高度时，背景图像的位置相对于viewport固定 */
+    background-attachment: fixed;
+    /* 让背景图基于容器大小伸缩 */
+    background-size: cover;
+    padding:0px;
+    overflow: auto;
+}
+#createbooks
+{
+    position:fixed;
+    left:370px;
+    z-index: 20;
+    top:50px;
+}
+#my-head
+{
+    position:fixed;
+    left:180px;
+    font-family:cursive;
+    font-size : 2em !important;
+    font-weight: bolder;
+    color:grey;
+    z-index: 20;
+    top:50px;
+}
+#books-block
+{position:absolute;top:150px}
+.note-div
+{
+    width:300px;
+    height:75px;
+    position:relative;
+    font-family:cursive;
+    font-size : 3px !important;
+    font-weight: bolder;
+    z-index:1;
+    padding:20px;
+}
+.book-div
+{
+    width:300px;
+    height:75px;
+    position:relative;
+    font-family:cursive;
+    font-size : 3px !important;
+    font-weight: bolder;
+    z-index:1;
+    padding:20px;
+}
+.note-span
+{
+    position:relative;
+    font-family:cursive;
+    font-size : 5px !important;
+    font-weight: bolder;
+}
+.opbook
+{
+    position:absolute;
+    margin:0 !important;
+    padding:0 !important;
+    top:20px;
+    right:110px;
+    width:30px;
+    height:30px;
+}
+.deletebook
+{
+    position:absolute;
+    margin:0 !important;
+    padding:0 !important;
+    top:20px;
+    right:70px;
+    width:30px;
+    height:30px;
+}
+.lookbook
+{
+    position:absolute;
+    margin:0 !important;
+    padding:0 !important;
+    top:20px;
+    right:30px;
+    width:30px;
+    height:30px;
+}
+.note-div #selected
+{
+    color:darkred;
+}
+.selected-book
+{
+    background-color: whitesmoke;
+    border-radius: 40px;
+}
+#notes-block
+{
+    width:300px;
+    height:950px;
+    position:fixed;
+    left:450px;
+    top:0;
+    padding:0px;
+    overflow: auto;
+    background-color:whitesmoke ;
+}
+#createnotes
+{
+    position:fixed;
+    left:690px;
+    z-index: 20;
+    top:50px;
+}
+#notes-head
+{
+    position:fixed;
+    left:480px;
+    font-family:cursive;
+    font-size : 2em !important;
+    font-weight: bolder;
+    color:grey;
+    z-index: 20;
+    top:50px;
+}
+#notes-div
+{
+    position:relative;
+    margin-top: 150px;
+}
+.deletenote
+{
+    position:absolute;
+    margin:0 !important;
+    padding:0 !important;
+    top:20px;
+    right:50px;
+    width:30px;
+    height:30px;
+}
+.looknote
+{
+    position:absolute;
+    margin:0 !important;
+    padding:0 !important;
+    top:20px;
+    right:10px;
+    width:30px;
+    height:30px;
+}
+.selected-note
+{
+    background-color: white;
+    border-radius: 40px;
+}
+.repeat-name
+{
+    margin-left: 250px;
+    color:red;
+    z-index:999;
+}
+.error
+{
+    border-color:red;
+}
+.selected-span
+{
+    background-color: greenyellow;
+}
